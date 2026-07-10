@@ -5,12 +5,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
-
 import javax.swing.JLabel;
 
 // GameState saves the last progress made by the user in case the user exits midgame
 // Stores all progress in text files
 public class GameState {
+    private Color GREEN = Color.decode("#6aaa64");
+    private Color YELLOW = Color.decode("#c9b458");
+    private Color GRAY = Color.decode("#787c7e");
+    
     private boolean isPlaying;
     private int remainingTime, wordLength = 0;
 
@@ -66,11 +69,11 @@ public class GameState {
 
                     label[i][Integer.parseInt(token[3])].setText(token[1]);
                     if(token[0].equals("GRAY")) {
-                        label[i][Integer.parseInt(token[3])].setBackground(Color.decode("#787c7F"));
+                        label[i][Integer.parseInt(token[3])].setBackground(GRAY);
                     } else if(token[0].equals("YELLOW")) {
-                        label[i][Integer.parseInt(token[3])].setBackground(Color.decode("#d9bd31"));
+                        label[i][Integer.parseInt(token[3])].setBackground(YELLOW);
                     } else {
-                        label[i][Integer.parseInt(token[3])].setBackground(Color.decode("#6ca965"));
+                        label[i][Integer.parseInt(token[3])].setBackground(GREEN);
                     }
                 }
                 scan.close();
@@ -90,13 +93,13 @@ public class GameState {
                 String token[] = content.split(";");
 
                 if(token[0].equals("GREEN")) {
-                    lettersKeyboard[Integer.parseInt(token[2])].setBackground(Color.decode("#6ca965"));
+                    lettersKeyboard[Integer.parseInt(token[2])].setBackground(GREEN);
                     lettersKeyboard[Integer.parseInt(token[2])].setForeground(Color.WHITE);
                 } else if(token[0].equals("YELLOW")) {
-                    lettersKeyboard[Integer.parseInt(token[2])].setBackground(Color.decode("#d9bd31"));
+                    lettersKeyboard[Integer.parseInt(token[2])].setBackground(YELLOW);
                     lettersKeyboard[Integer.parseInt(token[2])].setForeground(Color.WHITE);
                 } else if(token[0].equals("GRAY")) {
-                    lettersKeyboard[Integer.parseInt(token[2])].setBackground(Color.decode("#787c7F"));
+                    lettersKeyboard[Integer.parseInt(token[2])].setBackground(GRAY);
                     lettersKeyboard[Integer.parseInt(token[2])].setForeground(Color.WHITE);
                 }
             }
