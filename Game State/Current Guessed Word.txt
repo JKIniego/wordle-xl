@@ -1,0 +1,5 @@
+GRAY;C;false;0
+GREEN;A;false;1
+GREEN;T;false;2
+GREEN;T;false;3
+GREEN;Y;false;4

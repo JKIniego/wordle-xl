@@ -1,0 +1,10 @@
+GRAY;D;false;0
+GRAY;I;false;1
+GRAY;M;false;2
+GRAY;I;false;3
+GRAY;N;false;4
+GRAY;U;false;5
+GRAY;T;false;6
+GRAY;I;false;7
+GRAY;V;false;8
+GRAY;E;false;9
