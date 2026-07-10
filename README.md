@@ -32,7 +32,7 @@ Follow these steps to compile and run the application locally from your command 
 
 ### 1. Clone or Download the Project
 ```
-git clone [https://github.com/JKIniego/wordle-xl.git]
+git clone https://github.com/JKIniego/wordle-xl.git
 cd wordle-xl
 ```
 
