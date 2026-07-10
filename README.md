@@ -33,7 +33,7 @@ Follow these steps to compile and run the application locally from your command 
 ### 1. Clone or Download the Project
 ```
 git clone [https://github.com/JKIniego/wordle-xl.git]
-cd your-repo-name
+cd wordle-xl
 ```
 
 ### 2. Compile the Java Files
