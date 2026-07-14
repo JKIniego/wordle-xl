@@ -6,7 +6,7 @@ A standalone, expanded version of the classic Wordle game built entirely in Java
 
 ## Description
 
-**Wordle XL** modified version of the simple code from [mehmetcanbozkus/java-wordle](https://github.com/mtcnbzks/java-wordle) that uses another data structure and algorithms in compliance with the CMSC 122: Data Structures and Algorithms I course. It takes the core puzzle mechanics and upgrades them by allowing players to guess larger words (5 letters or more) while tracking player statistics.
+**Wordle XL** is a modified version of the simple code from [mehmetcanbozkus/java-wordle](https://github.com/mtcnbzks/java-wordle) that uses another data structure and algorithms in compliance with the CMSC 122: Data Structures and Algorithms I course. It takes the core puzzle mechanics and upgrades them by allowing players to guess larger words (5 letters or more) while tracking player statistics.
 
 
 
